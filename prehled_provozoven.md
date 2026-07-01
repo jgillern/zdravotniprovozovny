@@ -1,15 +1,15 @@
 # Přehled provozoven v oblasti zdraví podle provozovatelů
 
-> **Zdroj dat:** soubor `zdravi_provozovny_updated.xlsx` (630 řádků, všechny aktivní). Záznamy jsou seskupené podle **provozovatele (shodné IČO)**. Ke každému provozovateli je z veřejných rejstříků (ARES / obchodní a živnostenský rejstřík, Národní registr poskytovatelů zdravotních služeb) doplněn **název, sídlo a obor činnosti**. Následuje **rozpad na pobočky** – v Excelu je pobočka reprezentovaná smlouvou (`Contract`) a jednotlivými položkami (`Name`), které u sítí (laboratoře, lázně, nemocnice, optiky, řetězce salonů) odpovídají konkrétním provozovnám/lokalitám a u menších subjektů typům nabízených služeb.
+> **Zdroj dat:** soubor `zdravi_provozovny_updated.xlsx` (bez kategorie „Optika s rozšířeným sortimentem“). Záznamy jsou seskupené podle **provozovatele (shodné IČO)**. Ke každému provozovateli je z veřejných rejstříků (ARES / obchodní a živnostenský rejstřík, Národní registr poskytovatelů zdravotních služeb) doplněn **název, sídlo a obor činnosti**. Následuje **rozpad na pobočky** – v Excelu je pobočka reprezentovaná smlouvou (`Contract`) a jednotlivými položkami (`Name`), které u sítí (laboratoře, lázně, nemocnice, řetězce salonů) odpovídají konkrétním provozovnám/lokalitám a u menších subjektů typům nabízených služeb.
 
-**Souhrn:** 71 provozovatelů • 72 smluv (poboček) • 630 položek (provozoven/služeb), všechny aktivní.
+**Souhrn:** 68 provozovatelů • 69 smluv (poboček) • 617 položek (provozoven/služeb), všechny aktivní.
 
-**Kategorie:** Zdravotnické zařízení (292) · Lázeňské zařízení (95) · Zdravotnické potřeby (76) · Očkování (51) · Lázeňské procedury (50) · Zdravotní cvičení (28) · Prodej vitamínů a zdravé výživy (25) · Optika s rozšířeným sortimentem (13)
+**Kategorie:** Zdravotnické zařízení (292) · Lázeňské zařízení (95) · Zdravotnické potřeby (76) · Očkování (51) · Lázeňské procedury (50) · Zdravotní cvičení (28) · Prodej vitamínů a zdravé výživy (25)
 
 
 ---
 
-_Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. „Kde je" vychází ze sídla provozovatele a z názvů položek (často obsahují lokalitu). „OSVČ" = fyzická osoba podnikatel. U ojedinělých IČO se název v rejstříku liší od zdravotní činnosti vedené v seznamu – uvedeno jako upozornění._
+_Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. „Kde je“ vychází ze sídla provozovatele a z názvů položek (často obsahují lokalitu). „OSVČ“ = fyzická osoba podnikatel. U ojedinělých IČO se název v rejstříku liší od zdravotní činnosti vedené v seznamu – uvedeno jako upozornění._
 
 ---
 
@@ -408,21 +408,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Thuasne
 
 
-## 29. Optika pro oči s.r.o.
-
-- **IČO:** 19198558
-- **Sídlo:** Mánesova 417, 517 41 Kostelec nad Orlicí
-- **Čím se zabývá:** Oční optika s rozšířeným sortimentem
-- **Rozsah v seznamu:** 1 pobočka (smlouva) · 6 položek
-
-**Rozpad na pobočky:**
-
-- **Smlouva `A062302207`** — 6 položek
-  - _Zaměření:_ Optika s rozšířeným sortimentem (6)
-  - _Provozovny / služby:_ Optika pro oči - Rumburk, Optika pro oči - Děčín, Optika pro oči - Police nad Metují, Optika pro oči - Broumov, Optika pro oči Rychnov nad Kněžnou, Optika pro oči Ústí nad Orlicí
-
-
-## 30. Tereza Horáčková (OSVČ)
+## 29. Tereza Horáčková (OSVČ)
 
 - **IČO:** 76660036
 - **Sídlo:** Čelákovice
@@ -436,7 +422,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Zdravotní potřeby - Čelákovice, Zdravotní potřeby
 
 
-## 31. Nemocnice AGEL Valašské Meziříčí a.s.
+## 30. Nemocnice AGEL Valašské Meziříčí a.s.
 
 - **IČO:** 26822105
 - **Sídlo:** Valašské Meziříčí
@@ -450,7 +436,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Nemocnice Val. Mez. TRN ambulance, Nemocnice Val. Mez. sportovní amb., Nemocnice Val. Meziříčí - OKB, Nemocnice Val. Meziříčí gyn.-por. odd., Nemocnice Val. Meziříčí - rehabilitace
 
 
-## 32. Lázně Teplice nad Bečvou a.s.
+## 31. Lázně Teplice nad Bečvou a.s.
 
 - **IČO:** 45192570
 - **Sídlo:** Teplice nad Bečvou 47, 753 01
@@ -464,7 +450,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lázně Teplice nad Bečvou - Lázeňský dům Janáček, Lázně Teplice nad Bečvou - Lázeňský dům  Bečva, Lázně Teplice nad Bečvou - Lázeňský dům Moravan, Lázně Teplice nad Bečvou - Lázeňský dům Praha, Lázně Teplice nad Bečvou - eshop, prodej pobytů
 
 
-## 33. Lázně Velké Losiny, s.r.o.
+## 32. Lázně Velké Losiny, s.r.o.
 
 - **IČO:** 28561813
 - **Sídlo:** Lázeňská 323, 788 15 Velké Losiny
@@ -478,7 +464,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Wellness hotel Diana, Termální park Velké Losiny, Lázeňský hotel Eliška, Lázeňské sanatorium Šárka, Lázeňské hotely a resorty ROYAL SPA - www.royalspa.cz
 
 
-## 34. Shoets s.r.o.
+## 33. Shoets s.r.o.
 
 - **IČO:** 5249350
 - **Sídlo:** Příkop 27/2a, 602 00 Brno
@@ -492,7 +478,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Shoets - prodejna LITOVEL, Shoets - prodejna BRNO, Shoets - prodejna MOHELNICE, Shoets - prodejna MORAVSKÁ TŘEBOVÁ, Shoets - prodejna TŘEBÍČ
 
 
-## 35. Cornea Lexum s.r.o.
+## 34. Cornea Lexum s.r.o.
 
 - **IČO:** 26148552
 - **Sídlo:** Antala Staška 1670/80, 140 00 Praha 4
@@ -506,7 +492,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Ambulance Modřany, Ambulance Letňany, Ambulance Kyje, Ambulance Erbenova, Ambulance Pírkovo
 
 
-## 36. DVORT spol. s r.o.
+## 35. DVORT spol. s r.o.
 
 - **IČO:** 16949391
 - **Sídlo:** Hostivice
@@ -520,7 +506,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Zdravotnické potřeby, Zdravotnické potřeby Globus, Zdravotnícké potřeby, Zdravotní potřeby a zdravé obouvání
 
 
-## 37. ARENA – MEDICA spol. s r.o.
+## 36. ARENA – MEDICA spol. s r.o.
 
 - **IČO:** 25386590
 - **Sídlo:** Sviadnov
@@ -534,7 +520,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Prodejna Samaritan
 
 
-## 38. Fyziotoncar s.r.o.
+## 37. Fyziotoncar s.r.o.
 
 - **IČO:** 28717562
 - **Sídlo:** Děčín
@@ -548,7 +534,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Rehabilitace Kateřina, s. r. o. Děčín, Fyziotoncar s.r.o., Rehabilitace Kateřina, s.r.o. - Atrium
 
 
-## 39. TEMPARANO a.s.
+## 38. TEMPARANO a.s.
 
 - **IČO:** 28255542
 - **Sídlo:** Ovocný trh 572/11, 110 00 Praha 1
@@ -562,7 +548,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lázeňský dům Tosca, Lázeňský dům Luna, Lázeňský dům Mercur, Lázeňský dům Hubert
 
 
-## 40. Imperial Karlovy Vary a. s.
+## 39. Imperial Karlovy Vary a. s.
 
 - **IČO:** 45359318
 - **Sídlo:** U Imperiálu 7/31, 360 01 Karlovy Vary
@@ -576,7 +562,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Hotel Imperial *****, Spa Resort Sanssouci ****, Sportcentrum Imperial, Spa Resort Sanssouci, BH
 
 
-## 41. Slatinné lázně Třeboň s.r.o.
+## 40. Slatinné lázně Třeboň s.r.o.
 
 - **IČO:** 25179896
 - **Sídlo:** Lázeňská 1001, 379 01 Třeboň
@@ -590,7 +576,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ LD Aurora - recepce 2, LD Aurora - recepce 3,4, LD Berta - recepce, LD Aurora - wellnesscentrum recepce
 
 
-## 42. Léčebné lázně Luhačovice – Sanatorium MIRAMARE, s.r.o.
+## 41. Léčebné lázně Luhačovice – Sanatorium MIRAMARE, s.r.o.
 
 - **IČO:** 60727942
 - **Sídlo:** Bezručova 338, 763 26 Luhačovice
@@ -604,7 +590,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Léčebný hotel MIRAMARE, hotel Antoaneta Luhačovice, Luxury Spa & Wellness VILA VALAŠKA, Lázeňský hotel NIVAMARE
 
 
-## 43. REHA – ARNIKA s.r.o.
+## 42. REHA – ARNIKA s.r.o.
 
 - **IČO:** 26380323
 - **Sídlo:** Horšovský Týn
@@ -618,7 +604,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ REHABILITACE,MASÁŽE, REHA - ARNIKA, zdravotnické potřeby
 
 
-## 44. MEDICON Pharm s.r.o.
+## 43. MEDICON Pharm s.r.o.
 
 - **IČO:** 3661989
 - **Sídlo:** Antala Staška 1670/80, 140 00 Praha 4
@@ -632,7 +618,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Pharmacenrum Holešovice prodejna zdravé výživy, Pedag, Pharmacentrum Vysočany prodejna zdravé výživy, Pharmacentrum Budějovická prodejna zdravé výživy
 
 
-## 45. Horské lázně Karlova Studánka, státní podnik
+## 44. Horské lázně Karlova Studánka, státní podnik
 
 - **IČO:** 14450216
 - **Sídlo:** Karlova Studánka
@@ -646,7 +632,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lázně Karlova Studánka - Solná jeskyně, Lázně Karlova Studánka - rehabilitační wellness bazén, Lázně Karlova Studánka - časování procedur, Lázně Karlova Studánka - Libuše - hlavní recepce
 
 
-## 46. Zlatý Garant s.r.o.
+## 45. Zlatý Garant s.r.o.
 
 - **IČO:** 24254681
 - **Sídlo:** Karlovo náměstí 292/15, 120 00 Praha 2
@@ -660,7 +646,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Stomatologická klinika Magic Smile, Ortenovo náměstí Stomatologická klinika Magic Smile, Černý Most Stomatologická klinika Magic Smile, Elysee Dental Clinique
 
 
-## 47. ARIES, a.s.
+## 46. ARIES, a.s.
 
 - **IČO:** 28824563
 - **Sídlo:** Studenec 309, 512 33 Studenec
@@ -674,7 +660,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Aries Medishop, zdravotnické potřeby
 
 
-## 48. Státní léčebné lázně Janské Lázně, státní podnik
+## 47. Státní léčebné lázně Janské Lázně, státní podnik
 
 - **IČO:** 24007
 - **Sídlo:** náměstí Svobody 272, 542 25 Janské Lázně
@@ -688,7 +674,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Státní léčebné lázně Janské Lázně - Recepce DL Vesna, Státní léčebné lázně Janské Lázně - Přijímací kancelář, Státní léčebné lázně Janské Lázně - Aquacentrum, Státní léčebné lázně Janské Lázně - Recepce Janský Dvůr
 
 
-## 49. Mediestetik s.r.o.
+## 48. Mediestetik s.r.o.
 
 - **IČO:** 28534492
 - **Sídlo:** Senovážné náměstí 978/23, 110 00 Praha 1
@@ -702,7 +688,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Klinika Mediestetik - Praha 1, Klinika Mediestetik - Praha 2, Klinika Mediestetik - Praha 5, Klinika Mediestetik - Teplice
 
 
-## 50. STOP BOLESTI ZAD s.r.o.
+## 49. STOP BOLESTI ZAD s.r.o.
 
 - **IČO:** 4855019
 - **Sídlo:** Praha
@@ -716,7 +702,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Stop bolesti zad – Václavské náměstí, Stop bolesti zad - Karlín, Stop bolesti zad - Vinohradská, Stop Bolesti Zad - České Budějovice
 
 
-## 51. REKOMA s.r.o. (dříve Rehabilitace Kateřina REKOMA)
+## 50. REKOMA s.r.o. (dříve Rehabilitace Kateřina REKOMA)
 
 - **IČO:** 61326399
 - **Sídlo:** Ústí nad Labem
@@ -730,21 +716,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ REKOMA - Rehabilitace Neštěmice, REKOMA - Hiporehabilitace, REKOMA - Rehabilitace Děčín, REKOMA s.r.o. - Rehabilitace Pivovar
 
 
-## 52. OČNÍ OPTIKA OKO s.r.o.
-
-- **IČO:** 17775809
-- **Sídlo:** Hlavní 2459/108, 141 00 Praha 4
-- **Čím se zabývá:** Oční optika s rozšířeným sortimentem
-- **Rozsah v seznamu:** 1 pobočka (smlouva) · 4 položek
-
-**Rozpad na pobočky:**
-
-- **Smlouva `A482301472`** — 4 položek
-  - _Zaměření:_ Optika s rozšířeným sortimentem (4)
-  - _Provozovny / služby:_ Optika OKO Ládví, Optika OKO Spořilov, Optika OKO Zbraslav, Optika OKO Skalka
-
-
-## 53. DEVĚTSIL JST, s.r.o.
+## 51. DEVĚTSIL JST, s.r.o.
 
 - **IČO:** 25216791
 - **Sídlo:** Purkyňova 3032/15, Plzeň
@@ -758,7 +730,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lékárna Devětsil Chlumčany U hvězdiček, Lékárna Devětsil Holýšov, ZP Zelená Hvězda České Budějovice
 
 
-## 54. ARTHROCENTRUM, spol. s r.o.
+## 52. ARTHROCENTRUM, spol. s r.o.
 
 - **IČO:** 48034789
 - **Sídlo:** Krymská 74/41, 101 00 Praha 10
@@ -772,7 +744,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ ARTHROCENTRUM - rehabilitace, ARTHROCENTRUM - zdravotní potřeby
 
 
-## 55. THUASNE SHOPS s.r.o.
+## 53. THUASNE SHOPS s.r.o.
 
 - **IČO:** 28203941
 - **Sídlo:** Praha
@@ -786,7 +758,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Prodejna zdravotnických potřeb, prodejna zdravotnických potřeb
 
 
-## 56. Poliklinika Prosek a.s.
+## 54. Poliklinika Prosek a.s.
 
 - **IČO:** 28495306
 - **Sídlo:** Lovosická 440/40, 190 00 Praha 9
@@ -800,7 +772,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Pokladna Poliklinika Prosek a.s., Výdejna zdravotnických prostředků, Masáže, rehabilitace
 
 
-## 57. Lázně Darkov, a.s.
+## 55. Lázně Darkov, a.s.
 
 - **IČO:** 61974935
 - **Sídlo:** Čsl. armády 2954/2, 733 01 Karviná
@@ -814,7 +786,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Centrum regenerace, Léčebna Darkov, Svět vitality
 
 
-## 58. IPREA s.r.o.
+## 56. IPREA s.r.o.
 
 - **IČO:** 62417398
 - **Sídlo:** Politických vězňů 909/2, 110 00 Praha 1
@@ -828,7 +800,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ IPREA - rehabilitace, masáže, wellness, IPREA - zdravotnické zařízení, Institut IPREA
 
 
-## 59. REHALAND international s.r.o.
+## 57. REHALAND international s.r.o.
 
 - **IČO:** 27441474
 - **Sídlo:** Družstevní 1395/8, 140 00 Praha 4
@@ -842,7 +814,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ REHALAND Právnická fakulta, REHALAND Poliklinika Palackého, REHALAND Ženské domovy
 
 
-## 60. Zdravotnické potřeby – U pošty, s.r.o.
+## 58. Zdravotnické potřeby – U pošty, s.r.o.
 
 - **IČO:** 61171468
 - **Sídlo:** Sedláčkova 271/32, 301 00 Plzeň
@@ -856,7 +828,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Zdravotnické potřeby, Zdravotní obuv, Zdravotní obuv ARA
 
 
-## 61. Silvie Velebová (OSVČ)
+## 59. Silvie Velebová (OSVČ)
 
 - **IČO:** 69699518
 - **Sídlo:** Plumlovská 656/70, 796 01 Prostějov
@@ -870,7 +842,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Výdejna zdravotnických prostředků, Zdravotnické potřeby
 
 
-## 62. Nemocnice ve Frýdku-Místku, příspěvková organizace
+## 60. Nemocnice ve Frýdku-Místku, příspěvková organizace
 
 - **IČO:** 534188
 - **Sídlo:** El. Krásnohorské 321, 738 01 Frýdek-Místek
@@ -884,7 +856,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Nemocnice ve Frýdku-Místku, p.o., oddělení rehabilitace, Nemocnice- dentální hygiena, Nemocnice - stomatologická ambulance
 
 
-## 63. Bredomed s.r.o.
+## 61. Bredomed s.r.o.
 
 - **IČO:** 29314801
 - **Sídlo:** Brno
@@ -898,7 +870,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Zdravotnické potřeby Bredomed, Prodejna a výdejna zdravotnických potřeb Bredomed
 
 
-## 64. Nemocnice Pardubického kraje, a.s.
+## 62. Nemocnice Pardubického kraje, a.s.
 
 - **IČO:** 27520536
 - **Sídlo:** Kyjevská 44, 530 03 Pardubice
@@ -912,7 +884,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lékárna Litomyšlské nemocnice, Lékárna Svitavské nemocnice, Výdejna zdravotnických potřeb Pardubice
 
 
-## 65. Lázně Slatinice a.s.
+## 63. Lázně Slatinice a.s.
 
 - **IČO:** 25367757
 - **Sídlo:** Slatinice 29, 783 42 Slatinice
@@ -926,7 +898,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Lázeňský dům Mánes, Lázeňský dům Balnea, Penzion Majorka
 
 
-## 66. My Best Care s.r.o.
+## 64. My Best Care s.r.o.
 
 - **IČO:** 3334210
 - **Sídlo:** Praha
@@ -940,21 +912,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ My best care
 
 
-## 67. DR. OPTIK CZ s.r.o.
-
-- **IČO:** 29412714
-- **Sídlo:** Praha
-- **Čím se zabývá:** Síť očních optik (DR. OPTIK)
-- **Rozsah v seznamu:** 1 pobočka (smlouva) · 3 položek
-
-**Rozpad na pobočky:**
-
-- **Smlouva `A061722916`** — 3 položek
-  - _Zaměření:_ Optika s rozšířeným sortimentem (3)
-  - _Provozovny / služby:_ DR. OPTIK CZ Čelákovice, DR. OPTIK CZ Pardubice 2, DR. OPTIK CZ Hradec Králové
-
-
-## 68. Pekárek spol. s r.o.
+## 65. Pekárek spol. s r.o.
 
 - **IČO:** 24668699
 - **Sídlo:** Praha (ordinace Nad Olšinami 672/4, Praha 10)
@@ -968,7 +926,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Dům zubní péče Strašnice, Dům zubní péče Kobylisy, Dům zubní péče Chodov
 
 
-## 69. Léčebná rehabilitace Neuron, s.r.o.
+## 66. Léčebná rehabilitace Neuron, s.r.o.
 
 - **IČO:** 7438745
 - **Sídlo:** Studénka
@@ -982,7 +940,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Léčebná rehabilitace Neuron
 
 
-## 70. DENTO HYG s.r.o.
+## 67. DENTO HYG s.r.o.
 
 - **IČO:** 7031149
 - **Sídlo:** Budečská 2165/33, 120 00 Praha 2
@@ -996,7 +954,7 @@ _Pozn.: Excel neobsahuje adresy poboček, pouze kód smlouvy a název položky. 
   - _Provozovny / služby:_ Dentální hygiena DENTO, Dentální hygiena DENTO, pobočka MILEVSKO
 
 
-## 71. Klinika terapie stresu s.r.o.
+## 68. Klinika terapie stresu s.r.o.
 
 - **IČO:** 8754241
 - **Sídlo:** Praha
